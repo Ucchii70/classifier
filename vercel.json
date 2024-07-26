@@ -1,12 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "./classifier.py",
-        "use": "@vercel/python",
-        "config": { "runtime": "python3.7.12" }
-      }
-    ],
     "routes": [
       {
         "src": "/(.*)",
